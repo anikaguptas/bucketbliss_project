@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+/* .container{
+    flex:1;
+} */
+
+.navbar{
+   height: 5rem;
+   background-color: white;
+}
+.fa-spa{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    transition: 0.3s ease;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+    font-size: 1.05rem;
+}
+.f-info{
+    padding-top: 25px;
+    background-color: rgb(195, 195, 195);
+    height: 10rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px; 
+    padding-bottom: 15px; 
+}
+.f-info-socials i{
+    font-size: 1.8rem;
+    margin-right: 0.8rem;
+}
+.container{
+    /* margin: 0 !important; */
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem; 
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important; 
+}
+.card-title{
+font-weight: 400;
+}
+.card-text{
+
+}
+
+.btn-primary{
+    background-color: #fe424d !important;
+    border: none !important;
+    font-size: 0.9rem !important;
+}
+.add-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+}
+.show-img{
+    height: 60vh;
+
+}
+.btns{
+    display: flex;
+    gap:2rem;
+}
+.font-card{
+ 
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2rem;
+}
+.reviewbox{
+    padding: 1rem !important;
+    
+}
+.mb-12{
+    margin-bottom: 12rem;
+}
+.edit{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}

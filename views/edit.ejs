@@ -1,0 +1,52 @@
+<% layout("./layouts/boilerplate") %>
+<br>
+<br>
+<div class="row">
+    <div class="col-8 offset-2">
+    <form method="post" action="/listing/<%=list._id%>?_method=PATCH" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input class="form-control" placeholder="Enter title " name="listing[title] " value="<%= list.title %>">
+            </div>
+        
+        
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" placeholder="Enter description" name="listing[description]"><%= list.description %></textarea>
+
+            </div>
+
+    <div class="row">
+            <div class="mb-3 col-md-4">
+                <label for="price" class="form-label">Price</label>
+                <input class="form-control" placeholder="Enter price" name="listing[price]" value="<%= list.price %>">
+            </div>
+            <div class="mb-3 col-md-8">
+                <label for="country" class="form-label">Country</label>
+                <input class="form-control" placeholder="enter country" name="listing[country] " value="<%= list.country %>">
+             </div>
+    </div>
+
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input class="form-control" placeholder="enter location" name="listing[location]" value="<%= list.location %>">
+
+            </div>
+
+      
+
+       
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input class="form-control" type="file" name="listing[image][url]"  %>">
+
+            </div>
+
+        <br> 
+        <br> 
+        <button class="btn add-btn">edit</button>
+     </form>
+    </div>
+    </div>
+    <br>
+    <br>
