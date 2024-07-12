@@ -1,6 +1,6 @@
 Welcome to BucketBliss! This project is designed to provide a seamless and engaging platform for users to find unique accommodations and unforgettable experiences.
 
-Website like : https://bucketbliss-project.onrender.com/listing
+Website link : https://bucketbliss-project.onrender.com/listing
 
 
 Features
